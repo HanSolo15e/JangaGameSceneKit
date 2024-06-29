@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2011FA852B8FB94D00FA5112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011FA842B8FB94D00FA5112 /* ContentView.swift */; };
+		2011FA872B8FBF0500FA5112 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011FA862B8FBF0400FA5112 /* AppDelegate.swift */; };
+		204A0F1A2C2B5E09001D6415 /* sunsethf.png in Resources */ = {isa = PBXBuildFile; fileRef = 204A0F192C2B5E09001D6415 /* sunsethf.png */; };
+		204A0F1E2C2B7307001D6415 /* istockphoto-1356838242-612x612.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 204A0F1D2C2B7307001D6415 /* istockphoto-1356838242-612x612.jpg */; };
+		204A0F222C2B745B001D6415 /* Clouds 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 204A0F212C2B745B001D6415 /* Clouds 2.png */; };
+		204A0F242C2B75BF001D6415 /* Clouds_2-transformed.png in Resources */ = {isa = PBXBuildFile; fileRef = 204A0F232C2B75BF001D6415 /* Clouds_2-transformed.png */; };
+		204A0F262C2BAEA2001D6415 /* JengaGrass.png in Resources */ = {isa = PBXBuildFile; fileRef = 204A0F252C2BAEA2001D6415 /* JengaGrass.png */; };
+		205AB8942B8921FC0071AEAF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 205AB8932B8921FC0071AEAF /* art.scnassets */; };
+		205AB8962B8921FC0071AEAF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205AB8952B8921FC0071AEAF /* GameViewController.swift */; };
+		205AB89B2B8921FE0071AEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205AB89A2B8921FE0071AEAF /* Assets.xcassets */; };
+		205AB8A82B8921FE0071AEAF /* Game_JanagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205AB8A72B8921FE0071AEAF /* Game_JanagTests.swift */; };
+		205AB8B22B8921FF0071AEAF /* Game_JanagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205AB8B12B8921FF0071AEAF /* Game_JanagUITests.swift */; };
+		205AB8B42B8921FF0071AEAF /* Game_JanagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205AB8B32B8921FF0071AEAF /* Game_JanagUITestsLaunchTests.swift */; };
+		207BF54D2B8FDACB007339A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 207BF54C2B8FDACB007339A6 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		205AB8A42B8921FE0071AEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205AB8862B8921FC0071AEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205AB88D2B8921FC0071AEAF;
+			remoteInfo = Game_Janag;
+		};
+		205AB8AE2B8921FF0071AEAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 205AB8862B8921FC0071AEAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 205AB88D2B8921FC0071AEAF;
+			remoteInfo = Game_Janag;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2011FA842B8FB94D00FA5112 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2011FA862B8FBF0400FA5112 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		204A0F192C2B5E09001D6415 /* sunsethf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunsethf.png; path = ../../../../../Desktop/PovRay3.7.0.8_Unofficial_Final/scenes/advanced/sunsethf.png; sourceTree = "<group>"; };
+		204A0F1D2C2B7307001D6415 /* istockphoto-1356838242-612x612.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "istockphoto-1356838242-612x612.jpg"; path = "../../../../Pictures/istockphoto-1356838242-612x612.jpg"; sourceTree = "<group>"; };
+		204A0F212C2B745B001D6415 /* Clouds 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clouds 2.png"; path = "../../../../../Pictures/Clouds 2.png"; sourceTree = "<group>"; };
+		204A0F232C2B75BF001D6415 /* Clouds_2-transformed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Clouds_2-transformed.png"; path = "../../../../../Downloads/Clouds_2-transformed.png"; sourceTree = "<group>"; };
+		204A0F252C2BAEA2001D6415 /* JengaGrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = JengaGrass.png; path = ../../../../../Pictures/JengaGrass.png; sourceTree = "<group>"; };
+		205AB88E2B8921FC0071AEAF /* Game_Janag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Game_Janag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205AB8932B8921FC0071AEAF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		205AB8952B8921FC0071AEAF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		205AB89A2B8921FE0071AEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		205AB8A32B8921FE0071AEAF /* Game_JanagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game_JanagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205AB8A72B8921FE0071AEAF /* Game_JanagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_JanagTests.swift; sourceTree = "<group>"; };
+		205AB8AD2B8921FF0071AEAF /* Game_JanagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Game_JanagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205AB8B12B8921FF0071AEAF /* Game_JanagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_JanagUITests.swift; sourceTree = "<group>"; };
+		205AB8B32B8921FF0071AEAF /* Game_JanagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game_JanagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		207BF54C2B8FDACB007339A6 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		20A57ED52B918A3D000224D1 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		20A57ED62B918A3D000224D1 /* Icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76@2x.png"; sourceTree = "<group>"; };
+		20A57ED72B918A3D000224D1 /* Icon-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@2x.png"; sourceTree = "<group>"; };
+		20A57ED82B918A3D000224D1 /* Icon-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40@3x.png"; sourceTree = "<group>"; };
+		20A57ED92B918A3D000224D1 /* Icon-83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-83.5@2x.png"; sourceTree = "<group>"; };
+		20A57EDA2B918A3D000224D1 /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		20A57EDB2B918A3D000224D1 /* Icon-20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20@1x.png"; sourceTree = "<group>"; };
+		20A57EDC2B918A3D000224D1 /* Icon-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@2x.png"; sourceTree = "<group>"; };
+		20A57EDD2B918A3D000224D1 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		20A57EDE2B918A3D000224D1 /* Icon-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29@3x.png"; sourceTree = "<group>"; };
+		20A57EDF2B918A3D000224D1 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		20A57EE02B918A3D000224D1 /* Icon-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20@3x.png"; sourceTree = "<group>"; };
+		20A57EE12B918A3D000224D1 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		20A57EE22B918A3D000224D1 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		20A57EE32B918A3D000224D1 /* Icon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		205AB88B2B8921FC0071AEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205AB8A02B8921FE0071AEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205AB8AA2B8921FF0071AEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205AB8852B8921FC0071AEAF = {
+			isa = PBXGroup;
+			children = (
+				205AB8902B8921FC0071AEAF /* Game_Janag */,
+				205AB8A62B8921FE0071AEAF /* Game_JanagTests */,
+				205AB8B02B8921FF0071AEAF /* Game_JanagUITests */,
+				205AB88F2B8921FC0071AEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		205AB88F2B8921FC0071AEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				205AB88E2B8921FC0071AEAF /* Game_Janag.app */,
+				205AB8A32B8921FE0071AEAF /* Game_JanagTests.xctest */,
+				205AB8AD2B8921FF0071AEAF /* Game_JanagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		205AB8902B8921FC0071AEAF /* Game_Janag */ = {
+			isa = PBXGroup;
+			children = (
+				20A57ED42B918A3D000224D1 /* iOS */,
+				2011FA862B8FBF0400FA5112 /* AppDelegate.swift */,
+				2011FA842B8FB94D00FA5112 /* ContentView.swift */,
+				204A0F1D2C2B7307001D6415 /* istockphoto-1356838242-612x612.jpg */,
+				205AB8932B8921FC0071AEAF /* art.scnassets */,
+				205AB8952B8921FC0071AEAF /* GameViewController.swift */,
+				205AB89A2B8921FE0071AEAF /* Assets.xcassets */,
+				207BF54C2B8FDACB007339A6 /* Main.storyboard */,
+			);
+			path = Game_Janag;
+			sourceTree = "<group>";
+		};
+		205AB8A62B8921FE0071AEAF /* Game_JanagTests */ = {
+			isa = PBXGroup;
+			children = (
+				205AB8A72B8921FE0071AEAF /* Game_JanagTests.swift */,
+			);
+			path = Game_JanagTests;
+			sourceTree = "<group>";
+		};
+		205AB8B02B8921FF0071AEAF /* Game_JanagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				205AB8B12B8921FF0071AEAF /* Game_JanagUITests.swift */,
+				205AB8B32B8921FF0071AEAF /* Game_JanagUITestsLaunchTests.swift */,
+			);
+			path = Game_JanagUITests;
+			sourceTree = "<group>";
+		};
+		20A57ED42B918A3D000224D1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				204A0F252C2BAEA2001D6415 /* JengaGrass.png */,
+				204A0F192C2B5E09001D6415 /* sunsethf.png */,
+				204A0F212C2B745B001D6415 /* Clouds 2.png */,
+				20A57ED52B918A3D000224D1 /* Icon-29.png */,
+				204A0F232C2B75BF001D6415 /* Clouds_2-transformed.png */,
+				20A57ED62B918A3D000224D1 /* Icon-76@2x.png */,
+				20A57ED72B918A3D000224D1 /* Icon-40@2x.png */,
+				20A57ED82B918A3D000224D1 /* Icon-40@3x.png */,
+				20A57ED92B918A3D000224D1 /* Icon-83.5@2x.png */,
+				20A57EDA2B918A3D000224D1 /* Icon-60@3x.png */,
+				20A57EDB2B918A3D000224D1 /* Icon-20@1x.png */,
+				20A57EDC2B918A3D000224D1 /* Icon-29@2x.png */,
+				20A57EDD2B918A3D000224D1 /* Icon-76.png */,
+				20A57EDE2B918A3D000224D1 /* Icon-29@3x.png */,
+				20A57EDF2B918A3D000224D1 /* Icon-60@2x.png */,
+				20A57EE02B918A3D000224D1 /* Icon-20@3x.png */,
+				20A57EE12B918A3D000224D1 /* iTunesArtwork@2x.png */,
+				20A57EE22B918A3D000224D1 /* Icon-40.png */,
+				20A57EE32B918A3D000224D1 /* Icon-20@2x.png */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		205AB88D2B8921FC0071AEAF /* Game_Janag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205AB8B72B8921FF0071AEAF /* Build configuration list for PBXNativeTarget "Game_Janag" */;
+			buildPhases = (
+				205AB88A2B8921FC0071AEAF /* Sources */,
+				205AB88B2B8921FC0071AEAF /* Frameworks */,
+				205AB88C2B8921FC0071AEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Game_Janag;
+			productName = Game_Janag;
+			productReference = 205AB88E2B8921FC0071AEAF /* Game_Janag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		205AB8A22B8921FE0071AEAF /* Game_JanagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205AB8BA2B8921FF0071AEAF /* Build configuration list for PBXNativeTarget "Game_JanagTests" */;
+			buildPhases = (
+				205AB89F2B8921FE0071AEAF /* Sources */,
+				205AB8A02B8921FE0071AEAF /* Frameworks */,
+				205AB8A12B8921FE0071AEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205AB8A52B8921FE0071AEAF /* PBXTargetDependency */,
+			);
+			name = Game_JanagTests;
+			productName = Game_JanagTests;
+			productReference = 205AB8A32B8921FE0071AEAF /* Game_JanagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		205AB8AC2B8921FF0071AEAF /* Game_JanagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 205AB8BD2B8921FF0071AEAF /* Build configuration list for PBXNativeTarget "Game_JanagUITests" */;
+			buildPhases = (
+				205AB8A92B8921FF0071AEAF /* Sources */,
+				205AB8AA2B8921FF0071AEAF /* Frameworks */,
+				205AB8AB2B8921FF0071AEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205AB8AF2B8921FF0071AEAF /* PBXTargetDependency */,
+			);
+			name = Game_JanagUITests;
+			productName = Game_JanagUITests;
+			productReference = 205AB8AD2B8921FF0071AEAF /* Game_JanagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		205AB8862B8921FC0071AEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					205AB88D2B8921FC0071AEAF = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					205AB8A22B8921FE0071AEAF = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 205AB88D2B8921FC0071AEAF;
+					};
+					205AB8AC2B8921FF0071AEAF = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 205AB88D2B8921FC0071AEAF;
+					};
+				};
+			};
+			buildConfigurationList = 205AB8892B8921FC0071AEAF /* Build configuration list for PBXProject "Game_Janag" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 205AB8852B8921FC0071AEAF;
+			productRefGroup = 205AB88F2B8921FC0071AEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205AB88D2B8921FC0071AEAF /* Game_Janag */,
+				205AB8A22B8921FE0071AEAF /* Game_JanagTests */,
+				205AB8AC2B8921FF0071AEAF /* Game_JanagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		205AB88C2B8921FC0071AEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				204A0F1E2C2B7307001D6415 /* istockphoto-1356838242-612x612.jpg in Resources */,
+				207BF54D2B8FDACB007339A6 /* Main.storyboard in Resources */,
+				205AB8942B8921FC0071AEAF /* art.scnassets in Resources */,
+				204A0F222C2B745B001D6415 /* Clouds 2.png in Resources */,
+				205AB89B2B8921FE0071AEAF /* Assets.xcassets in Resources */,
+				204A0F242C2B75BF001D6415 /* Clouds_2-transformed.png in Resources */,
+				204A0F262C2BAEA2001D6415 /* JengaGrass.png in Resources */,
+				204A0F1A2C2B5E09001D6415 /* sunsethf.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205AB8A12B8921FE0071AEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205AB8AB2B8921FF0071AEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		205AB88A2B8921FC0071AEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2011FA872B8FBF0500FA5112 /* AppDelegate.swift in Sources */,
+				2011FA852B8FB94D00FA5112 /* ContentView.swift in Sources */,
+				205AB8962B8921FC0071AEAF /* GameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205AB89F2B8921FE0071AEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205AB8A82B8921FE0071AEAF /* Game_JanagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		205AB8A92B8921FF0071AEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				205AB8B42B8921FF0071AEAF /* Game_JanagUITestsLaunchTests.swift in Sources */,
+				205AB8B22B8921FF0071AEAF /* Game_JanagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205AB8A52B8921FE0071AEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205AB88D2B8921FC0071AEAF /* Game_Janag */;
+			targetProxy = 205AB8A42B8921FE0071AEAF /* PBXContainerItemProxy */;
+		};
+		205AB8AF2B8921FF0071AEAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 205AB88D2B8921FC0071AEAF /* Game_Janag */;
+			targetProxy = 205AB8AE2B8921FF0071AEAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		205AB8B52B8921FF0071AEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		205AB8B62B8921FF0071AEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		205AB8B82B8921FF0071AEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Janga Game";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Game-Janag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		205AB8B92B8921FF0071AEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Janga Game";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Game-Janag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		205AB8BB2B8921FF0071AEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Game-JanagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game_Janag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game_Janag";
+			};
+			name = Debug;
+		};
+		205AB8BC2B8921FF0071AEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Game-JanagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game_Janag.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game_Janag";
+			};
+			name = Release;
+		};
+		205AB8BE2B8921FF0071AEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Game-JanagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Game_Janag;
+			};
+			name = Debug;
+		};
+		205AB8BF2B8921FF0071AEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J5JNP37N9D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "evanperry.Game-JanagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Game_Janag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		205AB8892B8921FC0071AEAF /* Build configuration list for PBXProject "Game_Janag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205AB8B52B8921FF0071AEAF /* Debug */,
+				205AB8B62B8921FF0071AEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205AB8B72B8921FF0071AEAF /* Build configuration list for PBXNativeTarget "Game_Janag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205AB8B82B8921FF0071AEAF /* Debug */,
+				205AB8B92B8921FF0071AEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205AB8BA2B8921FF0071AEAF /* Build configuration list for PBXNativeTarget "Game_JanagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205AB8BB2B8921FF0071AEAF /* Debug */,
+				205AB8BC2B8921FF0071AEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		205AB8BD2B8921FF0071AEAF /* Build configuration list for PBXNativeTarget "Game_JanagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205AB8BE2B8921FF0071AEAF /* Debug */,
+				205AB8BF2B8921FF0071AEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 205AB8862B8921FC0071AEAF /* Project object */;
+}
