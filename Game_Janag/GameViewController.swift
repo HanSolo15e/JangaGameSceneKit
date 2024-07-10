@@ -114,7 +114,7 @@ class GameViewControllerSCENE: UIViewController {
     // Check the blocks
     @objc func updateBlockPositions(scene: SCNScene) {
         // Define the threshold Y-coordinate below which blocks should be removed
-        let thresholdY: Float = -20.0 // Adjust as needed
+        let thresholdY: Float = -20.00 // Adjust as needed
         // Perform the necessary updates to check and remove blocks below the threshold
         for blockNode in scene.rootNode.childNodes {
             let worldPosition = blockNode.presentation.worldPosition
